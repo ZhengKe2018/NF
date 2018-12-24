@@ -1,0 +1,152 @@
+.bx-wrapper {
+	position: relative;
+	margin: 0 auto 60px;
+	padding: 0;
+	*zoom: 1;
+}
+
+.bx-wrapper img {
+	display: block;
+	max-width: 100%;
+}
+
+.bx-wrapper .bx-viewport {
+	-webkit-transform: translatez(0);
+	transform: translatez(0);
+	-ms-transform: translatez(0);
+}
+
+.bx-wrapper .bx-controls-auto,.bx-wrapper .bx-loading,.bx-wrapper .bx-pager {
+	position: absolute;
+	width: 100%;
+}
+
+.bx-wrapper .bx-loading {
+	top: 0;
+	left: 0;
+	z-index: 2000;
+	height: 100%;
+	min-height: 50px;
+	background: url(static/worldcup/home/images/bx_loader_4adbd81a.gif) center center no-repeat #fff;
+}
+
+.bx-wrapper .bx-pager {
+	padding-top: 20px;
+	color: #666;
+	text-align: center;
+	font-weight: 700;
+	font-size: .85em;
+	font-family: Arial;
+}
+
+.bx-wrapper .bx-controls-auto .bx-controls-auto-item,.bx-wrapper .bx-pager .bx-pager-item {
+	display: inline-block;
+	*zoom: 1;
+	*display: inline;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a {
+	display: block;
+	margin: 0 5px;
+	width: 10px;
+	height: 10px;
+	outline: 0;
+	border-radius: 5px;
+	background: #666;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a.active,.bx-wrapper .bx-pager.bx-default-pager a:hover {
+	background: #000;
+}
+
+.bx-wrapper .bx-prev {
+	left: 10px;
+	background: url(static/worldcup/home/images/controls_fdcd37c5.png) no-repeat 0 -2pc;
+}
+
+.bx-wrapper .bx-next {
+	right: 10px;
+	background: url(static/worldcup/home/images/controls_fdcd37c5.png) no-repeat -43px -2pc;
+}
+
+.bx-wrapper .bx-prev:hover {
+	background-position: 0 0;
+}
+
+.bx-wrapper .bx-next:hover {
+	background-position: -43px 0;
+}
+
+.bx-wrapper .bx-controls-direction a {
+	position: absolute;
+	top: 50%;
+	z-index: 9999;
+	margin-top: -1pc;
+	width: 2pc;
+	height: 2pc;
+	outline: 0;
+	text-indent: -9999px;
+}
+
+.bx-wrapper .bx-controls-direction a.disabled {
+	display: none;
+}
+
+.bx-wrapper .bx-controls-auto {
+	text-align: center;
+}
+
+.bx-wrapper .bx-controls-auto .bx-start {
+	display: block;
+	margin: 0 3px;
+	width: 10px;
+	height: 11px;
+	outline: 0;
+	background: url(static/worldcup/home/images/controls_fdcd37c5.png) -86px -11px no-repeat;
+	text-indent: -9999px;
+}
+
+.bx-wrapper .bx-controls-auto .bx-start.active,.bx-wrapper .bx-controls-auto .bx-start:hover {
+	background-position: -86px 0;
+}
+
+.bx-wrapper .bx-controls-auto .bx-stop {
+	display: block;
+	margin: 0 3px;
+	width: 9px;
+	height: 11px;
+	outline: 0;
+	background: url(static/worldcup/home/images/controls_fdcd37c5.png) -86px -44px no-repeat;
+	text-indent: -9999px;
+}
+
+.bx-wrapper .bx-controls-auto .bx-stop.active,.bx-wrapper .bx-controls-auto .bx-stop:hover {
+	background-position: -86px -33px;
+}
+
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager {
+	width: 80%;
+	text-align: left;
+}
+
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto {
+	right: 0;
+	width: 35px;
+}
+
+.bx-wrapper .bx-caption {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background: #666\9;
+	background: rgba(80,80,80,.75);
+}
+
+.bx-wrapper .bx-caption span {
+	display: block;
+	padding: 10px;
+	color: #fff;
+	font-size: .85em;
+	font-family: Arial;
+}

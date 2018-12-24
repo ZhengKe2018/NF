@@ -1,0 +1,235 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+/*重置内容*/
+*{margin:0; padding:0; outline:none; color:#666; font-family:arial,"microsoft yahei";}
+ul,li{ list-style:none;}
+.clearfix{clear:both;}
+img{ border:0px; display:block;}
+p{ font-size:14px; line-height:28px; text-align:justify;}
+a{ text-decoration:none;}
+h1,h2,h3,h4,h5,h6{font-weight:normal;}
+.clearfix{clear:both;}
+a:hover{ color:#CFB07E !important; cursor:pointer;}
+#flip:active{background-color:#CFB07E !important; border:solid 1px #CFB07E !important; color:white !important;}
+.current1{color:#CFB07E !important;}
+.current3{border:solid 1px #CFB07E  !important;}
+.current4{background-color:#CFB07E !important;}
+.current5{ color:white !important;}
+/*顶部样式*/
+.head{
+	width:100%;
+	background:white;
+	position:relative;
+	z-index:1;
+}
+.head>ul{
+	width:1200px;
+	margin:0 auto;
+
+}
+.head ul #logo{
+	float:left;
+	padding-top:28px;
+}
+.head ul .mainnav{
+	float:right;
+}
+.head  ul .mainnav a{
+	color:#666;
+
+}
+.head  ul .mainnav .menu>li>a{
+	line-height:100px;
+	padding:60px 0;
+}
+.head .mainnav ul{
+	
+}
+.head .mainnav .menu>li{
+	float:right;
+	margin-left:60px;
+}
+.head .mainnav .menu li .navbox{
+	position:absolute;
+	top:100px;
+	background: rgba(255,255,255,0.7);
+    background: #fff\9;
+    filter: alpha(opacity=90);
+	width:100%;
+	left:-1500px;
+	padding-left:1500px;
+	z-index:99999;
+	z-index:99999\9;
+}
+
+.head  .mainnav .menu li .navbox>li{
+	width:1200px;
+	margin:0 auto;
+	padding:20px 0;
+}
+.head  .mainnav .submnav{
+	position:relative;
+	overflow:hidden;
+	margin-left:400px;
+	z-index:88;
+}
+.head  .mainnav .submnav2{
+	margin-left:610px;
+
+}
+.head  .mainnav .submnav3{
+	margin-left:640px;
+
+}
+.head  .mainnav .submnav li{
+	float:left;
+	margin-right:10px;
+}
+.head  .mainnav .submnav li h5{
+	text-align:center;
+	padding-top:14px;
+}
+.head .menu>li .navbox{
+	display:none;
+}
+.head .menu>li:hover .navbox{
+	display:block;
+}
+/*banner*/
+.banner{
+	 overflow:hidden;
+	 position:relative; 
+	 width:100%;
+	 height:420px;
+}
+.banner>img{
+	 position:absolute;
+	 left:50%;
+	 top:0;
+	 margin-left:-800px;
+}
+.banner .info{
+	position:absolute;
+	top:40px;
+	left:50%;
+	width:1200px;
+	margin:-20px 0 0 -600px;	
+}
+.banner .subnav{
+	color:#ccc;
+	font-size:14px;
+	font-weight:normal;
+	line-height:50px;
+}
+.banner .subnav a,.banner .subnav span{
+	color:#ccc;
+}
+.banner .yinfo{
+	font-size:72px;
+	color:#CFB07E;
+	font-family:"microsoft yahei";
+	text-align:center;
+	padding:30px 0 0px;
+}
+.banner .zinfo{
+	font-size:48px;
+	color:#CFB07E;
+	text-align:center;
+
+}
+.banner .sidebar ul{
+	overflow:hidden;
+	width:620px;
+	margin:50px auto 0;
+	padding-top:50px\9;
+}
+.banner .sidebar ul li{
+	float:left;
+	margin-right:25px;
+	height:48px;	
+}
+.banner .sidebar ul li p{
+	font-size:16px;
+	color:white;
+	text-align:center;
+	width:188px;
+	line-height:38px;
+	border:solid 1px #797979;
+	cursor:pointer;
+}
+/*主题内容*/
+.main{
+	width:100%;
+	background-color:#746964;
+}
+.container{
+	overflow:hidden;
+	width:1200px;
+	margin:0 auto;
+	background-color:transparent;
+	/*background-image:url(../img/dibu.jpg);*/
+	background-repeat:repeat-x;
+	background-position:bottom;
+	padding-bottom:200px;
+}
+.container h4,.container h5,.container p,.container li,.container span{
+	color:white;	
+}
+.title1{
+	padding:60px 0 40px;
+	font-size:20px;
+}
+.last{
+	margin-right:0 !important;
+}
+/*.container table,.container table td{
+	border-collapse: collapse;
+	border: 1px solid #E4E4E4;
+}
+.container .columns table,.container .columns table td{
+	border:none;
+}*/
+#page ul{
+	overflow:hidden;
+	width:480px;
+	margin:40px auto 0 auto;
+}
+#page ul li{
+	color:#CFB07E;
+	float:left;
+	width:38px;
+	text-align:center;
+	line-height:38px;
+	margin-right:4px;
+	border:solid 1px #CFB07E;
+}
+#page ul li a{
+	color:#CFB07E;	
+}
+#page ul #flip{
+	width:80px;
+	margin-right:0;
+}
+/*页脚*/
+.footer{
+	background-color:#302E2C;
+	overflow:hidden;
+}
+.footer ul{
+	width:1200px;
+	margin:0 auto;
+	padding:30px 0;
+	overflow:hidden;
+}
+.footer ul li:first-child{
+	float:left;
+	color:#7D736A;
+}
+.footer ul .link{
+	float:right;
+	color:#7D736A;
+}
+.footer li a{
+	color:#7D736A;
+}

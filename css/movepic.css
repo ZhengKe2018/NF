@@ -1,0 +1,358 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+/*主页*/
+.index .main{
+	background-color:#3B3836;
+	padding:20px 0;
+}
+.index .container{
+	padding:0 0 40px 0;	
+}
+.index .container h5,.index .container h2{
+	text-align:center;
+}
+.index .container h2{
+	color:#CFB07E;	
+}
+.index .container h5{
+	color:#e4e4e4;
+	padding:20px 0 40px;
+}
+.index .container ul{
+	overflow:hidden;
+}
+.index .container ul li{
+	float:left;
+	position:relative;
+}
+.index .container ul li .hbox{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:292px;
+	height:232px;
+	background: rgba(0,0,0,0.6);
+    background: #000\9;
+    filter: alpha(opacity=60);
+	border:solid 4px #CFB07E;
+	display:none;	
+}
+.index .container ul li:hover .hbox{
+	display:block	
+}
+.index .container ul li div h3{
+	color:#CFB07E;
+	text-align:center;
+	line-height:30px;
+	padding-top:90px;
+}
+.index .container{
+	background-image:none;	
+}
+/*关于我们*/
+.about .container .column1 div{
+	overflow:hidden;
+	padding-top:40px;
+}
+.about .container .column1 div img{
+	float:left;
+	margin-right:15px;
+}
+.about .container .column2 ul{
+	overflow:hidden;
+}
+.about .container .column2 ul li{
+	float:left;
+	width:198px;
+	height:238px;
+	border:solid 1px #e4e4e4;
+	margin:40px 30px 0 0;
+}
+.about .container .column2 ul li h1{
+	color:white;
+	padding:20px 0 60px 30px;
+}
+.about .container .column2 ul li h4{
+	padding-left:30px;	
+}
+.about .container .column2 ul li p{
+	padding-left:30px;
+}
+.about .container .column3 ul{
+	overflow:hidden;	
+}
+.about .container .column3 ul li{
+	float:left;
+	width:198px;
+	line-height:198px;
+	text-align:center;
+	border:solid 1px white;
+	border-radius:50%;
+	margin:40px 40px 0 0;	
+}
+/*产品中心*/
+.product .banner .yinfo{
+	padding-top:6px;
+}
+.product .banner .yinfo img{
+	margin:0 auto;
+}
+.product .banner .zinfo{
+	font-size:14px;
+	line-height:20px;
+	padding-top:20px;
+}
+.product .banner .sidebar ul{
+	width:1075px;	
+} 
+
+/*品牌资讯*/
+.news .container .menu1{
+	margin-top:20px;
+	border-bottom:solid 1px #CFB07E;
+}
+.news .container .menu{
+	overflow:hidden;
+	padding-bottom:40px;
+}
+.news .container .menu img{
+	width:300px;
+	height:240px;
+	float:left;
+}
+.news .container .menu div{
+	float:left;
+	width:860px;
+	padding:10px 0 0 40px;
+}
+.news .container .menu div h4 a{
+	color:white;
+	font-size:20px;
+}
+.news .container .menu div p{
+	margin-top:30px;
+	margin-bottom:50px;
+}
+.news .container .menu div span{
+	color:#CFB07E;
+	padding-top:20px;
+	border-top:solid 1px #CFB07E;
+}
+/*新闻详情页*/
+.news-xqy .container h4{
+	font-size:20px;
+	font-weight:normal;
+	text-align:center;
+	padding-top:60px;
+}
+.news-xqy .container>h5{
+	text-align:center;
+	line-height:60px;
+}
+.news-xqy .container .p1{
+	color:#CFB07E;
+	padding-top:14px;
+	padding-bottom:14px;
+	border-top:solid 1px #CFB07E;
+	border-bottom:solid 1px #CFB07E;
+}
+.news-xqy .container .p1 strong{
+	color:#CFB07E;
+}
+.news-xqy .container .p2{
+	padding:40px 0;
+	line-height:40px;
+	border-bottom:solid 1px #CFB07E;
+}
+.news-xqy .container .menu{
+	overflow:hidden;
+	padding-top:20px;
+}
+.news-xqy .container .menu h5:first-child{
+	float:left;
+	font-weight:normal;
+}
+.news-xqy .container .menu .xyp{
+	float:right;
+	font-weight:normal;
+}
+.news-xqy .container .menu h5:hover{
+	color:#CFB07E;
+	cursor:pointer;
+}
+/*品牌加盟*/
+.store .column1 ul{
+	overflow:hidden;
+	padding:40px 0 10px;
+}
+.store .column1 ul li:first-child{
+	float:left;
+	line-height:40px;
+}
+.store .column1 ul .area{
+	float:right;
+}
+.store .column1 ul .area select{
+	width:128px;
+	height:38px;
+	height:38px\9;
+	line-height:38px\9;
+	border:solid 1px  #CFB07E;
+	padding:none;
+	background-color:transparent;
+	color:white;
+	margin-left:10px;
+}
+.store .column1 table td{
+	color:white;
+	line-height:58px;
+	padding-left:20px;
+}
+.store .column1 table,.store .column1 table td{
+	border-collapse: collapse;
+	border: 1px solid #CFB07E;
+}
+.store .column1 table tr:first-child td{
+	background-color:#CFB07E;	
+	line-height:38px;
+}
+.store .column1 table tr td:last-child{
+	text-align:center;
+}
+.store .column2>ul{
+	overflow:hidden;
+}
+.store .column2>ul>li{
+	float:left;	
+	margin-bottom:40px;
+}
+.store .column2 ul li ul{
+	width:592px;
+	height:352px;
+	border:solid 4px #CFB07E;
+	background-color:#000;
+}
+.store .column2 ul li ul li{
+	color:#CFB07E;
+	text-align:center;
+	font-size:28px;
+}
+.store .column2 ul li ul li:first-child{
+	padding:140px 0 60px;
+}
+.store .column2 ul li ul li a{
+	font-size:14px;
+	line-height:56px\9;
+	padding:12px 40px;
+	border:solid 1px #CFB07E;
+	color:#CFB07E;
+}
+.store .column3 ul{
+	overflow:hidden;
+}
+.store .column3 ul li{
+	float:left;
+	width:210px;
+	height:178px;
+	margin:0 35px 30px 0;
+	border:solid 1px white;
+}
+.store .column3 ul li h2{
+	color:white;
+	text-align:center;
+	line-height:90px;
+}
+.store .column3 ul li p{
+	width:130px;
+	text-align:center;
+	margin:0 auto;
+}
+.store .column3>h3{
+	color:#CFB07E;
+	padding-top:30px\9;
+}
+/*联系我们*/
+.contact .container{
+	overflow:hidden;
+	padding-top:40px;
+}
+.contact .container>div{
+	float:left;
+	margin-right:70px;
+}
+.contact .container h3{
+	color:white;
+	font-weight:normal;
+	margin-bottom:20px;
+}
+.contact .container>div .ewm{
+	width:458px;
+	height:508px;
+	background-color:#665B57;
+	border:solid 1px #665B57;
+}
+.contact .container>div .ewm li{
+	width:438px;
+	height:488px;
+	border:solid 1px #CFB07E;
+	margin:10px 0 0 10px;
+}
+.contact .container .ewm h4{
+	text-align:center;
+	padding:50px 0;
+}
+.contact .container .ewm p{
+	text-align:center;
+}
+.contact .container .ewm img{
+	margin:40px auto;
+}
+.contact .container .form{
+	width:670px;
+	float:left;
+}
+.contact .container .form caption{
+	color:white;
+	text-align:left;
+	font-size:18px;
+	padding-bottom:10px;
+}
+.contact .container .form td{
+	color:white;
+}
+.contact .container .form input[type=text]{
+	padding:0;
+	outline:none;
+	border:solid 1px #e4e4e4;
+	line-height:50px;
+	height:50px\9;
+	width:590px;
+}
+.contact .container .form textarea{
+	width:590px;
+	height:260px;
+	border:solid 1px #e4e4e4;
+}
+.contact .container .form input[type=submit]{
+	background-color:#D9BA8F;
+	outline:none;
+	border:none;
+	line-height:50px;
+	width:592px;
+	font-size:16px;
+	color:white;
+}
+.index .container ul li .hbox{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:275px;
+	height:232px;
+	background: rgba(0,0,0,0.6);
+    background: #000\9;
+    filter: alpha(opacity=60);
+	border:solid 4px #CFB07E;
+	display:none;	
+}
+

@@ -1,0 +1,189 @@
+
+fieldset,img {
+	border: 0;
+	vertical-align: top
+}
+
+
+.top_slide_wrap {
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+	margin-top:0;
+	width: 100%;
+	height:620px;
+	z-index:0;
+}
+
+.slide_box {
+	overflow: hidden;
+
+}
+
+.slide_box li {
+	width:100%;
+	height:620px;
+	background-color:#3B3836;
+	
+}
+
+.slide_box img {
+	width: 100%;
+	height:auto;
+
+}
+
+.slide_info {
+	margin: -732px auto 0;
+	width:500px
+}
+
+.slide_info_card {
+	position: relative;
+	margin-top:250px;
+	width: 500px;
+	height: 0;
+	color: #fff
+}
+
+.slide_info_card a {
+	color: #fff;
+	text-decoration: none
+}
+
+.slide_info_card .slide_info_card_bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	width:500px;
+	height: 200px;
+/*	background: #0071c6;
+	opacity: 0.8;*/
+}
+
+.slide_info_card .slide_info_card_text {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	padding: 30px 40px;
+	width:700px;
+	height: 140px
+}
+
+.slide_info_card .info1{
+	left:-300px;
+	top:-40px;
+}
+
+.slide_info_card .info2{
+	left:-140px;
+	top:60px;
+}
+.slide_info_card .info3{
+	top:260px;
+	left:-140px;
+}
+.slide_info_card h1{
+	font-size:52px;
+	color:#CFB07E;	
+}
+.slide_info_card h2 {
+	padding-bottom: 8px;
+	text-align:center;
+	color:#CFB07E;
+	padding:20px 0 60px;
+}
+
+.op_btns {
+	position: relative;
+	z-index: 3;
+	margin: -650px auto 0;
+	width: 980px;
+}
+
+.op_btns .op_btn {
+	position: absolute;
+	display: block;
+	overflow: hidden;
+	margin-top:300px;
+	width: 62px;
+	height: 62px;
+	background-color:#666;
+	border-radius:50%;
+	opacity:0.5;
+	cursor: pointer
+}
+
+.op_btns .op_prev {
+	left: -135px
+}
+
+.op_btns .op_next {
+	right: -135px
+}
+
+.op_btns .op_next span,.op_btns .op_prev span {
+	display: block;
+	margin: 8px 0 0 17px;
+	width: 24px;
+	height: 44px;
+	background: url(/Content/img/icons_cb372887.png) no-repeat;
+	cursor: pointer
+}
+
+.op_btns .op_prev span {
+	background-position: 0 0
+}
+
+.op_btns .op_next span {
+	margin-left: 20px;
+	background-position: -73px 0
+}
+
+/*.op_bars {
+	position: relative;
+	z-index: 4;
+	margin: 220px auto 0;
+	width: 980px;
+	text-align: center
+}
+
+.op_bars .op_bar {
+	display: inline-block;
+	margin: 0 4px;
+	width: 12px;
+	height: 12px;
+	background: url(icons_cb372887.png) no-repeat -116px -90px
+}
+
+.op_bars .op_cur {
+	background-position: 0 -90px
+}
+*/
+.bx-wrapper .bx-controls {
+	margin-top:-140px
+}
+
+.bx-wrapper .bx-controls .bx-pager {
+	position: relative;
+	clear: both;
+	width: 100%;
+	text-align: center
+}
+
+.bx-wrapper .bx-controls .bx-pager a {
+	display: inline-block;
+	overflow: hidden;
+	width: 12px;
+	height: 12px;
+	border-radius:50%;
+	border:solid 1px white;
+	background-color:transparent;
+}
+
+.bx-wrapper .bx-controls .bx-pager a.active,.bx-wrapper .bx-controls .bx-pager a:hover {
+	background-color:white;
+}
+
